@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/6646/6646757.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link
+  href="https://fonts.googleapis.com/css2?family=Concert+One&family=Lobster&family=Playwrite+CU:wght@100..400&display=swap"
+  rel="stylesheet"> 
+  <link
+  href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Shade&family=Geo&family=Madimi+One&family=Rye&family=Vast+Shadow&family=ZCOOL+QingKe+HuangYou&display=swap"
+  rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=B612+Mono&family=Bad+Script&family=Fredoka:wght@400;500&family=Jua&family=Kosugi+Maru&family=Marck+Script&family=Oleo+Script:wght@400;700&family=Pacifico&family=Petit+Formal+Script&family=Quicksand&family=Roboto:ital,wght@1,100&family=Signika+Negative:wght@300&family=Special+Elite&display=swap"
+    rel="stylesheet">
+  <title> Proyectos en Photoshop</title>
+  <style>
+    /* Estilos CSS */
+    body {
+      font-family: Fredoka;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+      overflow-x: hidden;
+    }
+
+    header {
+      background-color: #4800ff;
+      color: #fff;
+      padding: 1vw;
+      margin-top: 0vw;
+      text-align: center;
+      animation: header-animation 5s ease-in-out infinite;
+    
+    }
+
+    @keyframes header-animation {
+      0% {
+        transform: translateY(-10px) scale(1);
+        text-shadow: 0 0 10px rgba(135, 206, 235, 0.5);
+      }
+
+      25% {
+        transform: translateY(10px) scale(1.1);
+        text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+      }
+
+      50% {
+        transform: translateY(-10px) scale(1);
+        text-shadow: 0 0 10px rgba(135, 206, 235, 0.5);
+      }
+
+      75% {
+        transform: translateY(10px) scale(1.1);
+        text-shadow: 0 0 20px rgba(147, 112, 219, 0.5);
+      }
+
+      100% {
+        transform: translateY(-10px) scale(1);
+        text-shadow: 0 0 10px rgba(135, 206, 235, 0.5);
+      }
+    }
+
+    header h1 {
+      font-size: 5vw;
+      font-weight: bold;
+      margin-top: 7vw;
+      font-family: "Madimi One", sans-serif;
+      text-transform: uppercase;
+    }
+
+    header h1 span {
+      display: inline-block;
+      animation: letter-animation 5s ease-in-out infinite;
+    }
+
+    @keyframes letter-animation {
+      0% {
+        transform: translateY(0) rotate(0deg);
+        color: #87ceeb;
+      }
+
+      25% {
+        transform: translateY(-10px) rotate(10deg);
+        color: #9370db;
+      }
+
+      50% {
+        transform: translateY(0) rotate(0deg);
+        color: #87ceeb;
+      }
+
+      75% {
+        transform: translateY(10px) rotate(-10deg);
+        color: #ac8bee;
+      }
+
+      100% {
+        transform: translateY(0) rotate(0deg);
+        color: #87ceeb;
+      }
+    }
+
+
+    .button-container {
+
+      position: fixed;
+      background-color: #000000;
+      box-shadow: 0 0 5px rgba(0, 132, 255, 0.925);
+      display: flex;
+      justify-content: safe;
+      align-items: center;
+      padding: 1vw;
+      z-index: 200;
+      width: 99%;
+      height: 2.5vw;
+    }
+
+    .button-container button,
+    a {
+      background: linear-gradient(to right, #4c00ff, rgb(127, 165, 190), #a8fcff);
+      border-radius: 1vw;
+      color: #2b0053;
+
+      text-align: center;
+      padding: 0.8vw;
+      margin: 1vw;
+      border: none;
+      cursor: pointer;
+      font-family: 'Concert One';
+      font-size: 1.5vw;
+      transition: box-shadow 0.3s ease;
+      width: 10.5vw;
+      text-shadow: 0.1vw 0.2vw 0.2vw #ffffff;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    button:hover,
+    a:hover {
+
+      background-color: #ffffff;
+      color: #000;
+      box-shadow: 0 0 0.6vw 0.3vw rgb(98, 0, 255);
+    }
+
+
+
+
+    main {
+      padding: 2vw;
+      width: 80%;
+      margin: auto;
+    }
+
+    .project {
+      margin-bottom: 4vw;
+     
+    }
+
+    .project img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .project h2 {
+      font-size: 3vw;
+    }
+
+    .project h2 span {
+      color: #6b5b95;
+    }
+
+    .project p {
+      font-size: 2vw;
+    }
+
+    footer {
+      background-color: #4800ff;
+      color: #fff;
+      padding: 1vw;
+      text-align: center;
+      font-size: 1.5vw;
+    }
+
+    footer span {
+      color: #87ceeb;
+    }
+
+    h5 {
+      margin-top: 2VW;
+      font-family: 'Pacifico';
+      font-size: 4.5vw;
+      color: #c0a5ff;
+      text-shadow: 2px 2px 4px #c504d6;
+      text-align: center;
+    }
+
+    #semana10 {
+      font-family: 'Permanent Marker', cursive;
+      font-size: 3vw;
+      color: #3f0483;
+      text-shadow: 2px 2px 4px #ffb9b9;
+      text-align: center;
+      margin-top: 1vw;
+    }
+
+    #semana10 span {
+      background: #f0f8ff;
+      padding: 0.5vw 4vw;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(255, 105, 180, 0.5);
+    }
+    .project-container-general .project-container{
+      width: 40%;
+display: block;
+margin: auto;
+
+    }
+    .project-container-general .project-container .project-item {
+      width: 75%;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+      animation: pulse 2s infinite;
+      height: auto;
+      margin-bottom: 1vw;
+      
+    }
+    .project-container,.project-container-general, .project-container2 {
+      justify-content: space-around;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+     
+      gap: 1vw;
+      margin-top: 1|vw;
+      
+    }
+    .project-container2{
+      float: right;
+      width: 40%;
+     
+    }
+    .project-item {
+      width: 25%;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+      animation: pulse 2s infinite;
+      height: auto;
+      
+    }
+    .project-item2 {
+      width: 60%;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+      animation: pulse 2s infinite;
+      height: auto;
+    }
+    .project-item:hover {
+     
+      transform: translateY(-10px) scale(0.2);
+      box-shadow: 0 4px 6px rgba(255, 0, 0, 0.3);
+    }
+
+    @keyframes pulse {
+      0% {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      50% {
+        box-shadow: 0 4px 6px rgba(255, 0, 0, 0.3);
+      }
+
+      100% {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+    }
+
+    .project-item img , .project-item2 img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .project-item:hover {
+      transform: scale(1.5);
+      z-index: 1000;
+      width: 30%;
+
+    }
+
+    .project-item h3 {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 20px;
+      color: #333;
+    }
+
+    .project-item p {
+      font-size: 14px;
+      color: #666;
+      margin: 0 20px 20px;
+    }
+
+    @media (max-width: 768px) {
+      .project-item {
+        width: 100%;
+      }
+    }
+
+    h3 {
+      font-family: 'Concert One';
+      font-size: 2vw;
+      font-weight: 800;
+      color: #333;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      position: relative;
+      padding-bottom: 2vw;
+      text-align: center;
+    }
+    
+.info h2 {
+  font-family: 'Fredoka';
+  text-shadow: 2px 2px 4px rgba(77, 152, 223, 0.5);
+  animation: colorChange 5s infinite;
+
+}
+
+@keyframes colorChange {
+  0% { color: #ff6b6b; }
+  50% { color: #ffa500; }
+  100% { color: #ff6bf8; }
+}
+
+/* Estilos para la lista ordenada */
+ol {
+  list-style-type: none;
+  counter-reset: item;
+  margin: 0;
+  padding: 0;
+}
+
+ol > li {
+  counter-increment: item;
+  margin-bottom: 1vw;
+  padding-left: 3vw;
+  position: relative;
+}
+
+ol > li:before {
+  content: counter(item);
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+  padding: 0.1vw 0.4vw;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.1vw;
+}
+
+/* Estilos para las listas anidadas */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul > li {
+  margin-bottom: 5px;
+  padding-left: 20px;
+  position: relative;
+}
+
+ul > li:before {
+  content: "•";
+  color: #9b59b6;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Estilos para los elementos strong */
+strong {
+  background-color: #f1c40f;
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-family: 'Concert One';
+}
+.proj {
+ 
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+  position: relative; /* Establece el contenedor como relativo para que el botón pueda posicionarse absolutamente dentro de él */
+}
+
+.proj img {
+  overflow: hidden;
+  margin: auto;
+  display: block; /* Elimina el espacio en blanco debajo de la imagen */
+  width: 50%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  border-radius: 1vw; /* Bordes redondeados para la imagen */
+  box-shadow: 0 4px 2vw rgba(0, 0, 0, 0.664); /* Sombra para la imagen */
+}
+
+.proj button {
+  position: absolute; /* Posiciona el botón absolutamente dentro del contenedor .proj */
+  top: 50%; /* Coloca el botón a la mitad vertical del contenedor */
+  left: 50%; /* Coloca el botón a la mitad horizontal del contenedor */
+  transform: translate(-50%, -50%); /* Ajusta el botón para que esté centrado exactamente */
+  padding: 2vw; /* Añade un poco de espacio alrededor del texto del botón */
+  background-color: rgb(0, 0, 0); /* Fondo oscuro para el botón */
+  color: rgb(255, 255, 255); /* Color del texto del botón */
+  border: none; /* Quita el borde predeterminado del botón */
+  border-radius: 5px; /* Bordes redondeados del botón */
+  cursor: pointer; /* Cambia el cursor a una mano cuando pasa sobre el botón */
+  font-size: 5vw; /* Tamaño del texto del botón (ajustado para que se adapte bien) */
+  margin: 0%;
+  min-width: 50%; /* Ancho mínimo para el botón */
+  min-height: auto; /* Altura mínima para el botón */
+  font-family: "Madimi One", sans-serif;
+  text-align: center; /* Centra el texto del botón */
+  letter-spacing: 1.4vw;
+  text-transform: uppercase;
+}
+
+
+.image-gallery {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  margin-top: 1vw;
+  height: 31vw;
+  padding: 0 auto;
+  overflow: hidden;
+ 
+}
+
+.image-container {
+  position: relative;
+  transition: all 3s ease;
+border-radius:1vw;
+
+
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin:0 auto;
+  border-radius:1vw;
+ 
+}
+
+.image-container:hover {
+  object-fit: contain;
+  padding:0.5vw;
+  width: 80vw;
+  height: 30vw;
+  border-radius:0vw;
+
+ 
+}
+
+.image-container:not(:hover) {
+  width: 8vw;
+  height: 30vw;
+
+
+}
+
+.image-container:not(:hover) img {
+  filter: blur(3px);
+}
+
+.carrusel {
+  position: relative;
+  width: 80%;
+  margin: 40px auto;
+  height: ;
+}
+
+.imagenes {
+  position: relative;
+  width: 100%;
+  height: 900px;
+  overflow: hidden;
+}
+
+.imagenes img {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s;
+}
+
+.imagenes img.active {
+  opacity: 1;
+  display: block;
+}
+
+.imagenes img.no-active {
+  opacity: 0;
+}
+
+.flechas {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.flecha-izquierda {
+  position: absolute;
+  left: 0;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.flecha-derecha {
+  position: absolute;
+  right: 0;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+  </style>
+</head>
+
+<body>
+  <div class="button-container">
+    <a href="#diez">Semana 10</a>
+    <a href="#once">Semana 11</a>
+    <a href="#doce">Semana 12</a>
+    <a href="#trece">Semana 13</a>
+    <a href="#catorce">Semana 14</a>
+    <a href="#quince">Semana 15</a>
+    <a href="#dieciseis">Semana 16</a>
+  </div>
+  <header>
+    <h1>
+
+      <span> </span>
+      <span>P</span>
+      <span>r</span>
+      <span>o</span>
+      <span>y</span>
+      <span>e</span>
+      <span>c</span>
+      <span>t</span>
+      <span>o</span>
+      <span>s</span>
+      <span> </span>
+      <span> </span>
+      <span> </span>
+      <span>e</span>
+      <span>n</span>
+      <span> </span>
+      <span> </span>
+      <span> </span>
+      <span>P</span>
+      <span>h</span>
+      <span>o</span>
+      <span>t</span>
+      <span>o</span>
+      <span>s</span>
+      <span>h</span>
+      <span>o</span>
+      <span>p</span>
+    </h1>
+  </header>
+
+
+  <main>
+    <h5> Trabajos realizados en clase</h5>
+
+    <section id="diez">
+      <h2 id="semana10"><span id="semana10"><---------- Semana 10 ----------> <i class="fas fa-magic"></i> </span> </h2>
+      <h3><strong>Elementos Básicos de Photoshop.</strong>:<br>Entorno de trabajo de Photoshop</h3>
+    
+        <div class="proj">
+          <img src="https://i.ytimg.com/vi/BMGirukzOPU/maxresdefault.jpg" alt="Proyecto 1">
+          <button onclick="window.location.href='https://rosalesapazamilagros01.github.io/Photoshop/'"">Photoshop</button>
+          <br>    
+   
+      </div><div class="project-container">
+        <div class="project-item">
+          <h3>IMAGEN DE REFERENCIA</h3>
+          <p>Sobre esta imagen trabajamos el tritono y cuadritono</p>
+          <!-- Imagen eliminada -->
+        </div>
+        
+        <div class="project-item">
+          <h3>TRITONO</h3>
+          <p>Se hizo un tritono con los colores: blanco, amarillo y negro</p>
+          <!-- Imagen eliminada -->
+        </div>
+        
+        <div class="project-item">
+          <h3>CUADRITONO</h3>
+          <p>Se hizo un cuadritono con los colores: rojo, blanco, amarillo y negro</p>
+          <!-- Imagen eliminada -->
+        </div>
+        <div class="procedimiento-general">
+          <ol>
+            <li><strong>Aplicar Efecto Duotono</strong>:
+                <ul>
+                    <li>Abre la imagen en Photoshop.</li>
+                    <li>Ve a <code>Imagen</code> > <code>Ajustes</code> > <code>Mapa de degradado</code>.</li>
+                    <li>Selecciona un degradado de duotono o crea uno nuevo.</li>
+                    <li>Ajusta los colores del degradado según tus preferencias.</li>
+                    <li>Haz clic en <code>OK</code> para aplicar el efecto.</li>
+                </ul>
+            </li>
+            <li><strong>Aplicar Efecto Tritono</strong>:
+                <ul>
+                    <li>Con la imagen aún abierta, ve a <code>Imagen</code> > <code>Ajustes</code> > <code>Mapa de degradado</code>.</li>
+                    <li>Selecciona un degradado de tritono o crea uno nuevo.</li>
+                    <li>Ajusta los tres colores en el degradado según tus preferencias.</li>
+                    <li>Haz clic en <code>OK</code> para aplicar el efecto.</li>
+                </ul>
+            </li>
+            <li><strong>Aplicar Efecto Cuadritono</strong>:
+                <ul>
+                    <li>Repite el proceso anterior y ve a <code>Imagen</code> > <code>Ajustes</code> > <code>Mapa de degradado</code>.</li>
+                    <li>Selecciona un degradado de cuadritono o crea uno nuevo.</li>
+                    <li>Ajusta los cuatro colores en el degradado según tus preferencias.</li>
+                    <li>Haz clic en <code>OK</code> para aplicar el efecto.</li>
+                </ul>
+            </li>
+        </ol>
+        <div class="herramientas-utilizadas">
+          <h3>Herramientas Utilizadas</h3>
+          <ul>
+            <li>Herramienta de Selección de Imagen</li>
+            <li>Menú de Imagen</li>
+            <li>Ajustes</li>
+            <li>Mapa de Degradado</li>
+            <li>Editor de Degradado</li>
+        </ul>
+        </div>
+         </div>
+      </div>
+      <div class="image-gallery">
+        <div class="image-container">
+          <img src="img/totoro.jpg" alt="Imagen de referencia">
+        </div>
+        
+        <div class="image-container">
+          <img src="img/tritono.png" alt="Tritono">
+        </div>
+        
+        <div class="image-container">
+          <img src="img/cuadritono.png" alt="Cuadritono">
+        </div>
+      </div>
+      
+    </section>
+    <BR>
+    <BR>
+    <section id="once">
+      <h2 id="semana10"><span id="semana10"><<---------- Semana 11 ----------> <i class="fas fa-magic"></i> </span>
+      </h2>
+
+      <h3><strong>Herramientas de tratamiento de imágenes.</strong>:<br>Aplicamos tratamiento de imágenes</h3>
+      <div class="project-container-general"><div class="project-container">
+        <div class="procedimiento-general">
+          <ol>
+            <li><strong>Abrir la Imagen</strong>:
+                <ul>
+                    <li>Abre Photoshop y carga la imagen que deseas curar.</li>
+                </ul>
+            </li>
+            <li><strong>Seleccionar la Herramienta Tampon de Clonar</strong>:
+                <ul>
+                    <li>Selecciona la herramienta Tampon de Clonar en la barra de herramientas (tecla de acceso rápido: <code>S</code>).</li>
+                </ul>
+            </li>
+            <li><strong>Ajustar los Parámetros de la Herramienta</strong>:
+                <ul>
+                    <li>Ajusta el tamaño y la dureza del pincel en la barra de opciones.</li>
+                    <li>Ajusta la opacidad si es necesario para un efecto más sutil.</li>
+                </ul>
+            </li>
+            <li><strong>Seleccionar un Punto de Muestra</strong>:
+                <ul>
+                    <li>Mantén presionada la tecla <code>Alt</code> (Windows) o <code>Opción</code> (Mac) y haz clic en el área de la imagen que deseas usar como muestra.</li>
+                </ul>
+            </li>
+            <li><strong>Curar el Defecto</strong>:
+                <ul>
+                    <li>Haz clic y arrastra sobre el defecto que deseas curar.</li>
+                </ul>
+            </li>
+            <li><strong>Usar el Pincel de Reparación</strong>:
+                <ul>
+                    <li>Selecciona la herramienta Pincel de Reparación (tecla de acceso rápido: <code>J</code>).</li>
+                    <li>Ajusta el tamaño del pincel según sea necesario.</li>
+                </ul>
+            </li>
+            <li><strong>Curar el Defecto con el Pincel de Reparación</strong>:
+                <ul>
+                    <li>Pinta sobre el área que deseas curar. La herramienta tomará muestras automáticamente de las áreas circundantes.</li>
+                </ul>
+            </li>
+            <li><strong>Refinar la Curación</strong>:
+                <ul>
+                    <li>Ajusta el tamaño del pincel y selecciona nuevos puntos de muestra si es necesario.</li>
+                    <li>Continúa curando hasta que estés satisfecho con el resultado.</li>
+                </ul>
+            </li>
+            <li><strong>Guardar la Imagen Curada</strong>:
+                <ul>
+                    <li>Una vez satisfecho con el resultado, guarda la imagen curada en el formato deseado.</li>
+                </ul>
+            </li>
+        </ol>
+        
+        <div class="herramientas-utilizadas">
+          <h3>Herramientas Utilizadas</h3>
+          <ul>
+            <li>Herramienta Tampon de Clonar</li>
+        <li>Herramienta Pincel de Reparación</li>
+        </ul>
+        </div>
+         </div>
+   
+        <div class="project-item">
+          <h3>IMAGEN DE REFERENCIA</h3>
+
+          <img src="img/Captura.PNG" alt="Proyecto 1">
+
+        </div>
+        <div class="project-item">
+          <h3>IMAGEN CURADA</h3>
+
+          <img src="img\imagenarreglada.png" alt="Proyecto 1">
+
+        </div>
+       
+       
+       
+      </div>
+      <div class="project-container2">
+      <div class="project-item2">
+        <h3>Hacemos recortes de sujetos</h3>
+
+        <img src="img/imagenespng.png" alt="Proyecto 1">
+
+      </div>
+    </div>
+  </div>
+    </section>
+    <BR>
+    <BR>
+    <section id="doce">
+      <h2 id="semana10"><span id="semana10"><<---------- Semana 12 ----------><i class="fas fa-magic"></i> </span> </h2>
+<div class="info"> <h3><strong>Herramientas de seleccion.</strong>:<br>usamos las herramientas de selección</h3>
+
+  <div class="procedimiento-general">
+    <h2>Crear un degradado en una máscara de capa</h2>
+    <ol>
+      <li>Crea una máscara de capa vacía en la capa que quieres aplicar el degradado.</li>
+      <li>Seleccione la herramienta de Degradado en la barra de herramientas.</li>
+      <li>Haga clic y arrastre sobre la máscara de capa para aplicar el degradado. Puedes ajustar el ángulo y la longitud del degradado arrastrando.</li>
+      <li>Puedes personalizar el degradado cambiando los colores de inicio y fin, así como los puntos intermedios.</li>
+      <li>También puedes aplicar un degradado a un filtro inteligente, siguiendo los mismos pasos.</li>
+    </ol>
+  
+    <div class="herramientas-utilizadas">
+      <h3>Herramientas Utilizadas</h3>
+      <ul>
+        <li>Máscara de capa</li>
+        <li>Herramienta de degradado</li>
+        <li>Filtros inteligentes</li>
+      </ul>
+    </div>
+  
+    <p>Estas herramientas y pasos te permiten crear efectos de transición suaves y difuminados entre diferentes áreas de la imagen.</p>
+  </div>
+  </div>
+     
+      <div class="project-container">
+        <div class="image-gallery">
+        <div class="image-container">
+          <img src="img/primertrabajo.jpg" alt="Proyecto 1">
+      </div>
+      <div class="image-container">
+          <img src="img/peru2.png" alt="Proyecto 2">
+      </div>
+      <div class="image-container">
+          <img src="img/trabajodegradadosombra.png" alt="Proyecto 3">
+      </div>
+      <div class="image-container">
+          <img src="img/juicio.png" alt="Proyecto 4">
+      </div></div>
+      </div>
+
+
+      <div class="procedimiento-general">
+        <h2>Cambiar el Color de Ropa, Ojos, Pelo, Labios, etc.</h2>
+        <ol>
+          <li>Seleccione la imagen en la que desea realizar los cambios.</li>
+          <li>Utilice la herramienta de Selección para seleccionar la parte de la imagen que desea cambiar de color.</li>
+          <li>Cree una capa de ajuste de Tono/Saturación para cambiar el color de la selección.</li>
+          <li>Ajuste los deslizadores de Tono, Saturación y Luminosidad para lograr el color deseado.</li>
+          <li>Si es necesario, refine los bordes de la selección utilizando una máscara de capa para asegurarse de que la transición de color sea suave y precisa.</li>
+          <li>Repita los pasos anteriores para cada parte de la imagen que desee cambiar de color.</li>
+        </ol>
+      
+        <div class="herramientas-utilizadas">
+          <h3>Herramientas Utilizadas</h3>
+          <ul>
+            <li>Herramienta de selección (Lazo, Varita mágica, etc.)</li>
+            <li>Capa de ajuste de Tono/Saturación</li>
+            <li>Deslizadores de Tono, Saturación y Luminosidad</li>
+            <li>Máscara de capa</li>
+          </ul>
+        </div>
+      
+        <p>Estas herramientas y pasos te permiten cambiar el color de ropa, ojos, pelo, labios, y otras partes de la imagen de manera efectiva, logrando efectos realistas y personalizados.</p>
+      </div>
+      
+      </div>
+       
+        <div class="image-gallery">
+          <div class="image-container">
+              <img src="img/cambiodeojos.png" alt="Proyecto 1">
+          </div>
+          <div class="image-container">
+              <img src="img/cambiocolorlabios1.png" alt="Proyecto 1">
+              <img src="img/cambio del color de labios2.png" alt="Proyecto 1">
+          </div>
+          <div class="image-container">
+              <img src="img/cambiocolorvestido.png" alt="Proyecto 1">
+          </div>
+          <div class="image-container">
+              <img src="img/cambiocolor vestido2.png" alt="Proyecto 1">
+          </div>
+          <div class="image-container">
+              <img src="img/cambiovestido2.2.png" alt="Proyecto 1">
+          </div>
+          <div class="image-container">
+              <img src="img/cabelloojosylabioscambiodecolor.png" alt="Proyecto 1">
+          </div>
+      </div>
+      <br>
+      
+    </section>
+    <BR>
+    <BR>
+
+      <section id="trece">
+        <h2 id="semana10"><span id="semana10"><---------- Semana 13 ----------><i class="fas fa-magic"></i> </span> </h2>
+  <div class="info"> <h3><strong>Manipulación de capas.</strong>:<br>usamos las herramientas de manipulación de capas</h3>
+  
+    </div>
+
+    <div class="procedimiento-general">
+      <ol>
+        <li><strong>Abrir las Imágenes</strong>: Carga las dos imágenes en Photoshop.</li>
+        <li><strong>Seleccionar la Primera Imagen</strong>: Activa la primera imagen como documento actual.</li>
+        <li><strong>Crear una Nueva Capa</strong>: Añade una nueva capa en el panel de capas.</li>
+        <li><strong>Copiar la Segunda Imagen</strong>: Selecciona y copia el contenido de la segunda imagen, luego pégalo en la nueva capa de la primera imagen.</li>
+        <li><strong>Ajustar la Opacidad</strong>: Modifica la opacidad de la capa con la segunda imagen para alinearla con la primera.</li>
+        <li><strong>Usar la Herramienta Borrador</strong>: Selecciona la herramienta Borrador y ajusta su tamaño para eliminar partes de la segunda imagen.</li>
+        <li><strong>Refinar la Composición</strong>: Continúa ajustando la opacidad y usando el Borrador hasta obtener el resultado deseado.</li>
+        <li><strong>Fusionar las Capas</strong>: Una vez satisfecho, fusiona las capas en una sola imagen.</li>
+        <li><strong>Guardar la Imagen Final</strong>: Guarda la imagen combinada en el formato deseado.</li>
+    </ol>
+    
+    
+      <div class="herramientas-utilizadas">
+        <h3>Herramientas Utilizadas</h3>
+        <ul>
+          <li>Herramienta de Borrador</li>
+          <li>Panel de Capas</li>
+          <li>Herramienta de Selección</li>
+          <li>Herramienta de Transformación</li>
+          <li>Control de Opacidad</li>
+        </ul>
+      </div>
+    
+       
+        <div class="project-container">
+          <div class="image-gallery">
+          <div class="image-container">
+            <img src="img\S131.PNG" alt="Proyecto 1">
+        </div>
+        <div class="image-container">
+            <img src="img\s133.PNG" alt="Proyecto 2">
+        </div>
+        <div class="image-container">
+            <img src="img\s132.PNG" alt="Proyecto 3">
+        </div>
+        <div class="image-container">
+            <img src="img\s134.PNG" alt="Proyecto 4">
+        </div></div>
+        </div>
+  
+  
+        
+        
+        </div>
+         
+          <div class="image-gallery">
+            <div class="image-container">
+                <img src="img\s135.PNG" alt="Proyecto 1">
+            </div>
+            <div class="image-container">
+                <img src="img\s136.PNG" alt="Proyecto 1">
+                <img src="img/cambio del color de labios2.png" alt="Proyecto 1">
+            </div>
+            <div class="image-container">
+                <img src="img\s137.PNG" alt="Proyecto 1">
+            </div>
+           
+        </div>
+        <br>
+        
+      </section>
+      <section id="catorce">
+        <h2 id="semana10"><span id="semana10"><---------- Semana 14 ----------><i class="fas fa-magic"></i> </span> </h2>
+  <div class="info"> <h3><strong>Herramientas de retoque y fotomontaje</strong>:<br>Retoque y Fotomontaje</h3>
+  
+    </div>
+   
+      <div class="project-container">
+      
+      <div class="project-item">
+        <h3>IMAGEN DE REFERENCIA</h3>
+
+        <img src="img/075541662792943-nm_200.jpg" alt="Proyecto 1">
+
+      </div>
+      <div class="project-item">
+        <h3>IMAGEN CURADA</h3>
+        <img src="img\MV5BMTM3OTUwMDYwNl5BMl5BanBnXkFtZTcwNTUyNzc3Nw@@._V1_.jpg" alt="Proyecto 2">
+       
+
+      </div>
+     
+      <div class="project-item">
+        <h3>Hacemos recortes de sujetos</h3>
+  
+        <img src="img/transformación de rostro.jpg" alt="Proyecto 3">
+  
+      </div>
+     
+    </div>
+    <br>
+    <div class="project-container">
+      
+      <div class="project-item">
+        <h3>IMAGEN DE REFERENCIA</h3>
+
+        <img src="img\ambienteprincesa.png" alt="Proyecto 1">
+
+      </div>
+      <div class="project-item">
+        <h3>IMAGEN CURADA</h3>
+        <img src="img\coreanoconluces.png" alt="Proyecto 2">
+       
+
+      </div>
+     
+      <div class="project-item">
+        <h3>Hacemos recortes de sujetos</h3>
+  
+        <img src="img\cabezaconedifico.png" alt="Proyecto 3">
+  
+      </div>
+     
+    </div>
+    
+   
+      </section> 
+      <BR>
+
+        <section id="quince">
+          <h2 id="semana10"><span id="semana10"><---------- Semana 15 ----------><i class="fas fa-magic"></i> </span> </h2>
+    <div class="info"> <h3><strong>Manipulación de capas.</strong>:<br>usamos las herramientas de manipulación de capas</h3>
+    
+      </div>
+         
+          <div class="project-container">
+            <div class="image-gallery">
+            <div class="image-container">
+              <img src="img\conjuntoinicial.jpg" alt="Proyecto 1">
+          </div>
+          <div class="image-container">
+              <img src="img\actividad1.png" alt="Proyecto 2">
+          </div>
+          <div class="image-container">
+              <img src="img/actividad2.png" alt="Proyecto 3">
+          </div>
+          <div class="image-container">
+              <img src="img\ACTIVIDAD-2.png" alt="Proyecto 4">
+          </div><div class="image-container">
+            <img src="img\actividad3-ojosmarrones.png" alt="Proyecto 4">
+        </div><div class="image-container">
+          <img src="img\actividad4-sombras.png" alt="Proyecto 4">
+      </div></div>
+          </div>
+    
+    
+          
+          
+          </div>
+          <div class="project-container">
+           
+            <div class="image-gallery">
+              <div class="image-container">
+                <img src="img\actividad5-brilloenlosojos.png" alt="Proyecto 4">
+            </div>
+              <div class="image-container">
+                  <img src="img\activdad6ojeras.png" alt="Proyecto 1">
+                 
+              </div>
+              <div class="image-container">
+                  <img src="img\actividad7-maspestañas.png" alt="Proyecto 1">
+              </div>
+             
+        </div> 
+          </div>
+          <br>
+          <div class="project-container">
+            <div class="image-gallery">
+          <div class="image-container">
+            <img src="img\actividad8-TEXTOHOLOGRÁFICO.png" alt="Proyecto 1">
+        </div>
+        <div class="image-container">
+          <img src="img\actividad9-TEXTOFUEGO.png" alt="Proyecto 1">
+      </div>
+    </div>
+          
+        </section>
+        <section id="dieciseis">
+          <h2 id="semana10"><span id="semana10"><---------- Semana 16 ----------><i class="fas fa-magic"></i> </span> </h2>
+    <div class="info"> <h3><strong>Creación de flyers</strong>:<br>creamos flyers</h3>
+    
+      </div>
+         
+          <div class="project-container">
+       
+       
+              <img src="img/banner-16-1.png" alt="Proyecto 1">
+      
+              <img src="img\banner2.png" alt="Proyecto 2">
+
+                  
+              <img src="img\POLLOALABRASA.png" alt="Proyecto 2">
+              <img src="img\josejose.png" alt="Imagen 1" value="1">
+              <img src="img/MADONNA.png" alt="Imagen 2"value="2">
+          </div>
+         
+  </div>
+          </div>
+    
+    
+          
+          
+          </div>
+          
+
+          
+        </section>
+        <div class="carrusel">
+          <div class="imagenes">
+            <img src="img\josejose.png" alt="Imagen 1" value="1">
+            <img src="img/MADONNA.png" alt="Imagen 2"value="2">
+           
+          </div>
+          <div class="flechas">
+            <button class="flecha-izquierda" onclick="moverIzquierda()">&#10094;</button>
+            <button class="flecha-derecha" onclick="moverDerecha()">&#10095;</button>
+          </div>
+        </div>
+        
+    <!-- Agrega más secciones para tus proyectos -->
+  </main>
+  <footer>
+    <p>&copy; 2024 Portafolio de Proyectos de <span>Photoshop</span>. Todos los derechos reservados.</p>
+  </footer>
+  <script>let imagenes = document.querySelectorAll('.imagenes img');
+    let indice = 0;
+    
+    function moverIzquierda() {
+      imagenes[indice].classList.remove('active');
+      indice--;
+      if (indice < 0) {
+        indice = imagenes.length - 1;
+      }
+      imagenes[indice].classList.add('active');
+    }
+    
+    function moverDerecha() {
+      imagenes[indice].classList.remove('active');
+      indice++;
+      if (indice >= imagenes.length) {
+        indice = 0;
+      }
+      imagenes[indice].classList.add('active');
+    }
+    
+    imagenes[0].classList.add('active');
+    
+    setInterval(moverDerecha, 5000);</script>
+</body>
+
+</html>
